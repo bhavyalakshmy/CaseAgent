@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Conclo Motors</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-color: #f5f5f5;
+            background-image: linear-gradient(to bottom, #f9f9f9, #e6e6e6);
+        }
+ </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo-title">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQXokSE2tioi2dSnx7FuS6DfNAQ-ZbjP0jTQ&s" alt="CONCLO Motors Logo" class="logo">
+                <h2 class="logo-text">CONCLO Motors</h2>
+            </a>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Models</a>
+                <a href="#">Sales</a>
+                <a href="#">Service</a>
+                <a href="#" class="active">Contact Us</a>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="main-container">
+        <h1 class="page-title">Contact Our Team</h1>
+        <p class="page-subtitle">Ready to experience the thrill? Fill out the form below and our performance specialists will contact you within 24 hours.</p>
+         </main>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <a href="#" class="logo-title">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQXokSE2tioi2dSnx7FuS6DfNAQ-ZbjP0jTQ&s" alt="CONCLO Motors Logo" class="footer-logo">
+                </a>
+                <p>CONCLO Motors is a premier automotive dealership committed to providing exceptional vehicles and service to our customers across Kerala.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New Vehicles</a></li>
+                    <li><a href="#">Pre-Owned</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Financing</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#">Test Drives</a></li>
+                    <li><a href="#">Vehicle Service</a></li>
+                    <li><a href="#">Parts & Accessories</a></li>
+                    <li><a href="#">Warranty</a></li>
+                    <li><a href="#">Roadside Assistance</a></li>
+                    <li><a href="#">Recall Information</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt" style="margin-right: 8px; color: #e31937;"></i> Pattambi Road, Kerala</li>
+                    <li><i class="fas fa-phone-alt" style="margin-right: 8px; color: #e31937;"></i> +91 93447 84735</li>
+                    <li><i class="fas fa-envelope" style="margin-right: 8px; color: #e31937;"></i> inquire@conclotechnologies.com</li>
+                    <li><i class="fas fa-clock" style="margin-right: 8px; color: #e31937;"></i> Mon-Sat: 9AM-7PM</li>
+                </ul>
+            </div>
+            
+            <div class="copyright">
+                Â© 2023 CONCLO Motors. All Rights Reserved. | <a href="#" style="color: #bbb;">Privacy Policy</a> | <a href="#" style="color: #bbb;">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Make header smaller on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) {
+                header.style.padding = '10px 0';
+                document.querySelector('.logo').style.height = '40px';
+            } else {
+                header.style.padding = '15px 0';
+                document.querySelector('.logo').style.height = '50px';
+            }
+        });
+    </script>
+</body>
+</html>
